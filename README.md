@@ -1,1 +1,1 @@
-# Mandiri-Technical-Test-1---Data-Analyst
+# Mandiri-Technical-Test-1-Data-Analyst
