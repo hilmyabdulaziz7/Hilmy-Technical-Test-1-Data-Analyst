@@ -1,10 +1,31 @@
 # Mandiri Technical Test 1: Data Analyst
+# Priority Client Acquisition: A Data-Driven Analysis
+
+## Project Overview
+
+This project presents a comprehensive, data-driven strategy for identifying and acquiring high-value investor prospects from a transactional banking dataset. The analysis is specifically tailored for a securities firm, focusing on translating raw customer behavior into actionable insights for wealth management and client acquisition teams.
+
+The workflow begins by leveraging `DBeaver` to directly import the raw CSV datasets (`users_data`, `cards_data`, `transactions_data`), allowing the tool to auto-generate the initial table schemas in a `PostgreSQL` database. Subsequently, a single, consolidated SQL script (`Mandiri.sql`) is executed to perform all data transformation and analysis. This script first refines the schema by adding primary/foreign keys and cleaning the data, then applies an advanced segmentation model using `NTILE` window functions to isolate a 'Priority Segment' of high-potential clients. Finally, the script analyzes the spending behaviors of this segment to confirm their investment capacity.
+
+## Final Deliverables
+
+* **SQL Script**: A single `Mandiri.sql` file containing all preprocessing and analysis queries.
+* **README.md**: This file, providing setup and execution instructions.
+* **Presentation.pdf**: A presentation file summarizing the analysis of user behavior.
+* **Looker Studio Dashboard Link**: A link to the final interactive dashboard.
+
+## Technology Stack
+
+* **Database**: `PostgreSQL`
+* **SQL Client**: `DBeaver`
+* **Analysis**: `SQL`
+* **Visualization**: `Looker Studio`
+
+---
 
 ## Setup and Execution Instructions
 
 This guide provides step-by-step instructions to set up the database, process the data, and run the analysis for this project.
-
----
 
 ### Part 1: Database and Data Import
 
