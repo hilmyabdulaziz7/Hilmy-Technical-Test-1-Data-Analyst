@@ -65,4 +65,4 @@ The `Mandiri.sql` script is designed to be run sequentially and contains two mai
     * Cleaning financial columns by removing currency symbols (`$`).
     * Altering column data types to their correct numeric or timestamp formats for accurate analysis.
 
-* **Analytical Queries:** The second part of the script contains all the final `SELECT` queries that perform the client segmentation and behavioral analysis. The results from this section are the direct data sources for each chart and table in the Looker Studio dashboard.
+* **Analytical Queries:** The second part of the script contains all the final `SELECT` queries that perform the client segmentation and behavioral analysis. The results from this section are the direct data sources for each chart and table in the Looker Studio dashboard and Presentation.
